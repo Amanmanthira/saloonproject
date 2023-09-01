@@ -1,3 +1,6 @@
+<img align="right" alt="Coding" width="400" src="https://freegifimg.com/thumbnail/hairdresser/71660-hairdresser-download-free-image.gif">
+
+
 # Salon Website Project
 
 Welcome to the Salon Website project! This project aims to create a modern and user-friendly website for a small salon business.
