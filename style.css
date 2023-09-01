@@ -1,0 +1,338 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  position: fixed;
+}
+
+.headpicture{
+    width: 100%;
+    height: 86vh;
+
+}
+#abc{
+    width:100%;
+    background-image: url();
+    background-size: cover;
+  }
+  nav{
+    width: 100%;
+    height:60px;
+    background-color:#343130;
+    line-height: 50px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:#088;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+  }
+  .headtexth2{
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -43vh;
+    color: whitesmoke;
+    font-weight: 800;
+    text-shadow: 2px 4px black;
+  }
+  .headtextp1{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: right;
+    padding: 47px;
+    margin-top: -12vh;
+    text-shadow: 2px 4px black;
+  }
+.welcome{
+    background-image: url(https://img.freepik.com/premium-vector/gray-abstract-texture-background_278222-3358.jpg);
+    padding: 40px;
+    
+}  
+.welcomeh1{
+    color: #3396A3;
+    font-family: 'Aoboshi One', serif;
+    font-size: 28px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    margin: opx;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+} 
+.welcomep1{
+    color: #636363;
+    font-family: 'Slackside One', cursive;
+    line-height: 36.8px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+/*.video{
+    background-image: url(/image/abstract-smooth-empty-grey-studio-well-use-as-backgroundbusiness-reportdigitalwebsite-templatebackdrop.jpg);
+}*/
+.video1{
+    padding: 30px;
+    
+}
+.video2{
+    padding: 30px;
+}
+.video3{
+    padding: 30px;
+}
+.video4{
+    padding: 30px;
+    right: 29px;
+}
+.video{
+    background-image: url(https://img.freepik.com/free-vector/abstract-background-design-black_53876-62802.jpg?w=740&t=st=1685968684~exp=1685969284~hmac=90a2e3e4ef53e32f9c6171cf385905162b6283dbacf03082454ccdd4bca66af4)
+}
+
+ 
+
+.unorderdlist{
+  width: 400px;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position:relative;
+  font-weight: 900;
+  padding: 40px;
+  /*text-shadow: 2px 2px white;*/
+  font-family: 'Monomaniac One', sans-serif;
+
+  
+  
+}
+.servicesh1{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: 2px 5px white;
+  color:black;
+  
+
+}
+.servicesh1:hover {color: goldenrod;font-size: 70px;}
+
+.bridalpart{
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: -144vh;
+  color:black;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+.services{
+  background-image: url(https://img.freepik.com/premium-vector/gray-abstract-texture-background_278222-3358.jpg );
+  background-repeat: norepeat;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+figure.snip1390 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  background-color: #2C3447;
+  padding: 40px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1390 figcaption {
+  width: 100%;
+}
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+figure.snip1390 h2 {
+  color: #ffffff;
+}
+figure.snip1390 h4 {
+  color: #a6a6a6;
+}
+figure.snip1390 blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.snip1390 blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+  padding: 0px;
+}
+figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
+}
+.snip1390{
+  float: left;
+  padding: 40px;
+  
+}
+.testimoniels{
+  background-image: url(https://hairsaloon.com/wp-content/uploads/2023/02/HairSaloon-NextApt-1620x1080-1-BW.jpg);
+  height: 100vh;
+}
+.clients{
+  text-align: center;
+  font-family: 'Slackside One', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  color:#3F4657;
+
+
+}
+
+.appoiment{
+  text-align: center;
+  padding: 30px;
+  background-image: url(https://hairsaloon.com/wp-content/uploads/2022/11/HairSaloon-VintageMan-1080x1620-3.jpg);
+  height: 50vh;
+
+
+}
+.appoimenth1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.appoimentp{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.my-5{
+  height: 40VH;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
